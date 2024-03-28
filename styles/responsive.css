@@ -1,0 +1,103 @@
+@media (max-width: 1680px) {
+  .box {
+    width: 430px;
+    height: 430px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ele-100-xl {
+    width: 100%;
+  }
+
+  .line {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .mg-t-20-sm {
+    margin-top: 20px;
+  }
+
+  .fl-u {
+    float: unset;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .list {
+    text-align: end;
+  }
+
+  .introduction {
+    margin-top: 130px;
+    text-align: center;
+  }
+
+  .home-circle {
+    padding-left: 0px;
+  }
+
+  .box {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .portfolio {
+    margin-top: 50px;
+    padding-left: 0px;
+  }
+
+  .portfolio-r {
+    padding-right: 0px;
+  }
+
+  h5 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ele-100-sm {
+    width: 100%; 
+  }
+
+  .list {
+    text-align: unset;
+  }
+
+  .contact-ft {
+    padding-left: 0px;
+  }
+
+  .box {
+    width: 340px;
+    height: 340px;
+  }
+
+  .pd-lr-10-sm {
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+
+  .mg-t-10-sm {
+    margin-top: 10px;
+  }
+
+  .mg-t-30-sm {
+    margin-top: 30px; 
+  }
+
+  .al-c-sm {
+    text-align: center;
+  }
+}
