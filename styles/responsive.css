@@ -68,7 +68,7 @@
 
 @media (max-width: 480px) {
   .ele-100-sm {
-    width: 100%; 
+    width: 100%;
   }
 
   .list {
@@ -86,7 +86,7 @@
 
   .pd-lr-10-sm {
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
   }
 
   .mg-t-10-sm {
@@ -94,7 +94,7 @@
   }
 
   .mg-t-30-sm {
-    margin-top: 30px; 
+    margin-top: 30px;
   }
 
   .al-c-sm {

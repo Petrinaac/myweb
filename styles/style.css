@@ -8,7 +8,7 @@
     border: none;
     border-style: none;
     outline: none;
-  }
+}
 
 /* WIDTH */
 
@@ -31,7 +31,7 @@
 
 .ele-90 {
     width: 90%;
-  }
+}
 
 .ele-50 {
     width: 50%;
@@ -48,6 +48,7 @@
 .ele-30 {
     width: 30%;
 }
+
 .ele-25 {
     width: 25%;
 }
@@ -87,29 +88,85 @@
 }
 
 /* FONT SIZE */
-.f-s-18 {font-size: 18px; line-height: 20px;}
-.f-s-24 {font-size: 24px; line-height: 26px;}
-.f-s-28 {font-size: 28px; line-height: 30px;}
-.f-s-32 {font-size: 32px; line-height: 34px;}
-.f-s-34 {font-size: 34px; line-height: 36px;}
-.f-s-48 {font-size: 48px; line-height: 50px;}
-.f-s-70 {font-size: 70px; line-height: 72px;}
+.f-s-18 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.f-s-24 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.f-s-28 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.f-s-32 {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.f-s-34 {
+    font-size: 34px;
+    line-height: 36px;
+}
+
+.f-s-48 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.f-s-70 {
+    font-size: 70px;
+    line-height: 72px;
+}
 
 /* MARGINS, PADDINGS, ALIGNS*/
-.mg-t {margin-top: 10px;}
-.mg-t-20 {margin-top: 20px;}
+.mg-t {
+    margin-top: 10px;
+}
 
-.mg-b-30 {margin-bottom: 30px;}
-.mg-b-50 {margin-bottom: 50px;}
-.mg-b-140 {margin-bottom: 140px;}
-.mg-b-200 {margin-bottom: 200px;}
+.mg-t-20 {
+    margin-top: 20px;
+}
 
-.mg-r-20 {margin-right: 20px;}
-.mg-r-30 {margin-right: 30px;}
+.mg-b-30 {
+    margin-bottom: 30px;
+}
 
-.al-l {text-align: left;}
-.al-r {text-align: right;}
-.al-c {text-align: center;}
+.mg-b-50 {
+    margin-bottom: 50px;
+}
+
+.mg-b-140 {
+    margin-bottom: 140px;
+}
+
+.mg-b-200 {
+    margin-bottom: 200px;
+}
+
+.mg-r-20 {
+    margin-right: 20px;
+}
+
+.mg-r-30 {
+    margin-right: 30px;
+}
+
+.al-l {
+    text-align: left;
+}
+
+.al-r {
+    text-align: right;
+}
+
+.al-c {
+    text-align: center;
+}
 
 /* CONTENT */
 
@@ -252,11 +309,12 @@ h2 {
     margin-top: 200px;
     overflow: hidden;
 }
+
 .box::before {
     content: '';
     position: absolute;
     inset: -10px 140px;
-    background: linear-gradient(315deg, rgb(160, 136, 136),rgb(255, 255, 255));
+    background: linear-gradient(315deg, rgb(160, 136, 136), rgb(255, 255, 255));
     transition: 0.8s;
     animation: animate 4s linear infinite;
 }
@@ -271,10 +329,10 @@ h5 {
 }
 
 @keyframes animate {
-    0%
-    {
+    0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -302,6 +360,7 @@ h5 {
     align-items: center;
     flex-direction: column;
 }
+
 .content img {
     position: absolute;
     top: 0;
